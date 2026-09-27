@@ -1,0 +1,3 @@
+label,observation,algorithm,training_seed,selected_step,planned_training_steps,batch_size,train_frequency,episodes,mean_score,max_score,std_score,mean_reward,mean_survival_time,mean_episode_steps,mean_obstacles_cleared,truncated_episodes
+State,state,dqn,42,325000,500000,64,1,30,4495.215211111304,4500.250000000193,27.11316793579494,685.6233333334084,99.91555555555556,5994.933333333333,86.46666666666667,29
+Image,image,dqn,42,25000,200000,16,8,30,168.32637500000152,718.038000000016,135.14148172019162,24.156666666666677,5.3816666666666695,322.9,1.9666666666666666,0

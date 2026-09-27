@@ -1,0 +1,100 @@
+{
+  "config": {
+    "seed": 42,
+    "device": "cpu",
+    "simulator": {
+      "fps": 60,
+      "initial_speed": 300.0,
+      "max_speed": 600.0,
+      "acceleration": 3.0,
+      "gravity": 1800.0,
+      "jump_velocity": 650.0,
+      "min_gap": 360.0,
+      "max_gap": 600.0,
+      "bird_probability": 0.25,
+      "max_episode_steps": 6000
+    },
+    "rewards": {
+      "survive": 0.1,
+      "pass_obstacle": 1.0,
+      "crash": -10.0
+    },
+    "dqn": {
+      "gamma": 0.99,
+      "learning_rate": 0.0001,
+      "batch_size": 64,
+      "replay_capacity": 100000,
+      "learning_starts": 5000,
+      "epsilon_start": 1.0,
+      "epsilon_end": 0.05,
+      "epsilon_decay_steps": 200000,
+      "target_update_frequency": 5000,
+      "train_frequency": 1,
+      "hidden_size": 128
+    },
+    "training": {
+      "steps": 500000,
+      "episodes": null,
+      "log_frequency": 100,
+      "progress_frequency": 5000,
+      "torch_threads": 1,
+      "checkpoint_frequency": 25000,
+      "evaluation_frequency": 25000,
+      "evaluation_episodes": 10,
+      "evaluation_seed": 10000,
+      "tensorboard": true
+    },
+    "image": {
+      "crop": [
+        0,
+        24,
+        800,
+        210
+      ],
+      "width": 84,
+      "height": 84,
+      "stack_size": 4
+    }
+  },
+  "driver": "saved state DQN (numerical inputs)",
+  "vision_model_trained": false,
+  "steps": 135,
+  "episode": 1,
+  "info": {
+    "score": 68.26500000000016,
+    "distance": 682.6500000000016,
+    "speed": 306.75000000000153,
+    "obstacles_cleared": 0,
+    "episode_steps": 135,
+    "survival_time": 2.25,
+    "crashed": false
+  },
+  "checkpoint_sha256": "25f04d03a63aa65cf882f69f678e7bace77f3ce00931341703a1ec3c47612e0f",
+  "rgb_shape": [
+    240,
+    800,
+    3
+  ],
+  "crop_shape": [
+    186,
+    800
+  ],
+  "stack_shape": [
+    4,
+    84,
+    84
+  ],
+  "dtype": "float32",
+  "minimum": 0.1764705926179886,
+  "maximum": 1.0,
+  "compact_stack_bytes": 28224,
+  "normalized_stack_bytes": 112896,
+  "adjacent_changed_pixels": [
+    244,
+    231,
+    226
+  ],
+  "ordering": "oldest_to_newest",
+  "frame_interval_seconds": 0.016666666666666666,
+  "pillow_version": "12.3.0"
+}

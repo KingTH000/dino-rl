@@ -1,0 +1,34 @@
+# Same training budget and settings as the Milestone 5 image experiment.
+seed: 42
+device: cpu
+observation: hybrid
+image:
+  crop: [0, 24, 800, 210]
+  width: 84
+  height: 84
+  stack_size: 4
+dqn:
+  gamma: 0.99
+  learning_rate: 0.0001
+  batch_size: 16
+  replay_capacity: 20000
+  replay_memory_limit_mb: 1024
+  learning_starts: 5000
+  epsilon_start: 1.0
+  epsilon_end: 0.05
+  epsilon_decay_steps: 100000
+  target_update_frequency: 5000
+  train_frequency: 8
+  cnn_hidden_size: 256
+  hybrid_state_hidden_size: 64
+training:
+  steps: 200000
+  torch_threads: 1
+  log_frequency: 100
+  progress_frequency: 5000
+  checkpoint_frequency: 50000
+  evaluation_frequency: 25000
+  evaluation_episodes: 10
+  evaluation_seed: 10000
+  keep_periodic_checkpoints: 2
+  tensorboard: true

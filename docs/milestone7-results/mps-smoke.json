@@ -1,0 +1,19 @@
+{
+  "device": "mps:0",
+  "algorithm": "double_dqn",
+  "updates": 1,
+  "action": 0,
+  "metrics": {
+    "loss": 0.007898821495473385,
+    "mean_q": 0.03526825085282326,
+    "mean_target": 0.15849412977695465
+  },
+  "image_shape": [
+    4,
+    84,
+    84
+  ],
+  "state_shape": [
+    10
+  ]
+}

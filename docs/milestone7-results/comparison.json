@@ -1,0 +1,52 @@
+{
+  "note": "Matched evaluation and training budgets/settings. Episode spread is not uncertainty across independent training runs.",
+  "sources": [
+    "/Users/thk/Documents/ChatGPT/Dino AI/results/milestone6_heldout.json",
+    "/Users/thk/Documents/ChatGPT/Dino AI/results/milestone7_heldout.json"
+  ],
+  "same_model_required": true,
+  "checkpoint_sha256": [
+    "9f55b6ff3e94150ee4a3e2549c7e8950a175b79f52ffa244f80766b622a9e3cf",
+    "f5d075a83756f68e5117bc3c059808ca89503caba969196ba5db25079560c5cf"
+  ],
+  "rows": [
+    {
+      "label": "DQN",
+      "observation": "hybrid",
+      "algorithm": "dqn",
+      "training_seed": 42,
+      "selected_step": 150000,
+      "planned_training_steps": 200000,
+      "batch_size": 16,
+      "train_frequency": 8,
+      "episodes": 30,
+      "mean_score": 129.13784166666753,
+      "max_score": 432.93883333333963,
+      "std_score": 93.89423741291199,
+      "mean_reward": 16.046666666666685,
+      "mean_survival_time": 4.174444444444444,
+      "mean_episode_steps": 250.46666666666667,
+      "mean_obstacles_cleared": 1.1,
+      "truncated_episodes": 0
+    },
+    {
+      "label": "Double_DQN",
+      "observation": "hybrid",
+      "algorithm": "double_dqn",
+      "training_seed": 42,
+      "selected_step": 175000,
+      "planned_training_steps": 200000,
+      "batch_size": 16,
+      "train_frequency": 8,
+      "episodes": 30,
+      "mean_score": 111.6576611111117,
+      "max_score": 307.88150000000326,
+      "std_score": 58.40019828274504,
+      "mean_reward": 12.496666666666735,
+      "mean_survival_time": 3.6383333333333336,
+      "mean_episode_steps": 218.3,
+      "mean_obstacles_cleared": 0.7666666666666667,
+      "truncated_episodes": 0
+    }
+  ]
+}

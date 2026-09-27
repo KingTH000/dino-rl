@@ -1,0 +1,51 @@
+{
+  "note": "Matched evaluation; training budgets/hyperparameters may differ. Episode spread is not uncertainty across independent training runs.",
+  "sources": [
+    "/Users/thk/Documents/ChatGPT/Dino AI/results/milestone3_heldout.json",
+    "/Users/thk/Documents/ChatGPT/Dino AI/results/milestone5_heldout.json"
+  ],
+  "checkpoint_sha256": [
+    "25f04d03a63aa65cf882f69f678e7bace77f3ce00931341703a1ec3c47612e0f",
+    "68d107f711e74e0ac19b7b74ff69fefab1f51bc047a19c6fcd957693623ff6bd"
+  ],
+  "rows": [
+    {
+      "label": "State",
+      "observation": "state",
+      "algorithm": "dqn",
+      "training_seed": 42,
+      "selected_step": 325000,
+      "planned_training_steps": 500000,
+      "batch_size": 64,
+      "train_frequency": 1,
+      "episodes": 30,
+      "mean_score": 4495.215211111304,
+      "max_score": 4500.250000000193,
+      "std_score": 27.11316793579494,
+      "mean_reward": 685.6233333334084,
+      "mean_survival_time": 99.91555555555556,
+      "mean_episode_steps": 5994.933333333333,
+      "mean_obstacles_cleared": 86.46666666666667,
+      "truncated_episodes": 29
+    },
+    {
+      "label": "Image",
+      "observation": "image",
+      "algorithm": "dqn",
+      "training_seed": 42,
+      "selected_step": 25000,
+      "planned_training_steps": 200000,
+      "batch_size": 16,
+      "train_frequency": 8,
+      "episodes": 30,
+      "mean_score": 168.32637500000152,
+      "max_score": 718.038000000016,
+      "std_score": 135.14148172019162,
+      "mean_reward": 24.156666666666677,
+      "mean_survival_time": 5.3816666666666695,
+      "mean_episode_steps": 322.9,
+      "mean_obstacles_cleared": 1.9666666666666666,
+      "truncated_episodes": 0
+    }
+  ]
+}

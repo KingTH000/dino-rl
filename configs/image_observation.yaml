@@ -1,0 +1,10 @@
+# Milestone 4 preprocessing only, not a CNN training configuration.
+seed: 42
+device: cpu
+image:
+  # RGB simulator canvas: 800 x 240. Keep all horizontal lookahead and the
+  # default Dino's highest jump, while removing unused sky/bottom margins.
+  crop: [0, 24, 800, 210]
+  width: 84
+  height: 84
+  stack_size: 4

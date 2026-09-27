@@ -1,0 +1,18 @@
+{
+  "device": "mps:0",
+  "updates": 1,
+  "action": 1,
+  "metrics": {
+    "loss": 0.009735031053423882,
+    "mean_q": -0.022178445011377335,
+    "mean_target": 0.11508187651634216
+  },
+  "image_shape": [
+    4,
+    84,
+    84
+  ],
+  "state_shape": [
+    10
+  ]
+}

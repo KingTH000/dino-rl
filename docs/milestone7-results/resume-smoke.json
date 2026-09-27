@@ -1,0 +1,20 @@
+{
+  "environment_steps": 50008,
+  "completed_episodes": 360,
+  "updates": 5627,
+  "first_update_step": 5000,
+  "target_syncs": 10,
+  "replay_size": 20000,
+  "epsilon_next": 0.5249240000000001,
+  "last_update": {
+    "loss": 0.10075738281011581,
+    "mean_q": -0.8099390864372253,
+    "mean_target": -0.8162714838981628
+  },
+  "online_weights_changed": true,
+  "partial_episode_steps": 96,
+  "partial_episode_reward": 9.599999999999982,
+  "best_validation_score": 70.7723083333335,
+  "interrupted": false,
+  "elapsed_seconds": 6.334508333005942
+}

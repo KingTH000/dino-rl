@@ -1,0 +1,72 @@
+{
+  "note": "Matched evaluation and training budgets/settings. Episode spread is not uncertainty across independent training runs.",
+  "sources": [
+    "/Users/thk/Documents/ChatGPT/Dino AI/results/milestone6_state_matched_heldout.json",
+    "/Users/thk/Documents/ChatGPT/Dino AI/results/milestone5_heldout.json",
+    "/Users/thk/Documents/ChatGPT/Dino AI/results/milestone6_heldout.json"
+  ],
+  "checkpoint_sha256": [
+    "1a3e4e7affd03ac8833bf3e569df74506118343d97742be638b406479e0112b5",
+    "68d107f711e74e0ac19b7b74ff69fefab1f51bc047a19c6fcd957693623ff6bd",
+    "9f55b6ff3e94150ee4a3e2549c7e8950a175b79f52ffa244f80766b622a9e3cf"
+  ],
+  "rows": [
+    {
+      "label": "State",
+      "observation": "state",
+      "algorithm": "dqn",
+      "training_seed": 42,
+      "selected_step": 125000,
+      "planned_training_steps": 200000,
+      "batch_size": 16,
+      "train_frequency": 8,
+      "episodes": 30,
+      "mean_score": 142.01644722222318,
+      "max_score": 438.6192500000064,
+      "std_score": 84.2455280351968,
+      "mean_reward": 18.79333333333342,
+      "mean_survival_time": 4.593333333333334,
+      "mean_episode_steps": 275.6,
+      "mean_obstacles_cleared": 1.3333333333333333,
+      "truncated_episodes": 0
+    },
+    {
+      "label": "Image",
+      "observation": "image",
+      "algorithm": "dqn",
+      "training_seed": 42,
+      "selected_step": 25000,
+      "planned_training_steps": 200000,
+      "batch_size": 16,
+      "train_frequency": 8,
+      "episodes": 30,
+      "mean_score": 168.32637500000152,
+      "max_score": 718.038000000016,
+      "std_score": 135.14148172019162,
+      "mean_reward": 24.156666666666677,
+      "mean_survival_time": 5.3816666666666695,
+      "mean_episode_steps": 322.9,
+      "mean_obstacles_cleared": 1.9666666666666666,
+      "truncated_episodes": 0
+    },
+    {
+      "label": "Hybrid",
+      "observation": "hybrid",
+      "algorithm": "dqn",
+      "training_seed": 42,
+      "selected_step": 150000,
+      "planned_training_steps": 200000,
+      "batch_size": 16,
+      "train_frequency": 8,
+      "episodes": 30,
+      "mean_score": 129.13784166666753,
+      "max_score": 432.93883333333963,
+      "std_score": 93.89423741291199,
+      "mean_reward": 16.046666666666685,
+      "mean_survival_time": 4.174444444444444,
+      "mean_episode_steps": 250.46666666666667,
+      "mean_obstacles_cleared": 1.1,
+      "truncated_episodes": 0
+    }
+  ]
+}

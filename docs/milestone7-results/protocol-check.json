@@ -1,0 +1,7 @@
+{
+  "only_config_difference": "algorithm",
+  "initial_weights_identical": true,
+  "initial_validation_episodes_identical": true,
+  "dqn_regression_all_60_episode_records_identical": true,
+  "dqn_checkpoint_sha256": "9f55b6ff3e94150ee4a3e2549c7e8950a175b79f52ffa244f80766b622a9e3cf"
+}

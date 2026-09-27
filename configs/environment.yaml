@@ -1,0 +1,17 @@
+seed: 42
+device: auto
+simulator:
+  fps: 60
+  initial_speed: 300.0
+  max_speed: 600.0
+  acceleration: 3.0
+  gravity: 1800.0
+  jump_velocity: 650.0
+  min_gap: 360.0
+  max_gap: 600.0
+  bird_probability: 0.25
+  max_episode_steps: 6000
+rewards:
+  survive: 0.1
+  pass_obstacle: 1.0
+  crash: -10.0

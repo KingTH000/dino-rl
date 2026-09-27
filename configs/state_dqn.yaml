@@ -1,0 +1,26 @@
+seed: 42
+device: auto
+# Omitted simulator/rewards sections use the Milestone 1 defaults.
+dqn:
+  gamma: 0.99
+  learning_rate: 0.0001
+  batch_size: 64
+  replay_capacity: 100000
+  learning_starts: 5000
+  epsilon_start: 1.0
+  epsilon_end: 0.05
+  epsilon_decay_steps: 200000
+  target_update_frequency: 5000
+  train_frequency: 1
+  hidden_size: 128
+training:
+  steps: 500000
+  episodes: null
+  log_frequency: 100
+  progress_frequency: 5000
+  torch_threads: 1
+  checkpoint_frequency: 25000
+  evaluation_frequency: 25000
+  evaluation_episodes: 10
+  evaluation_seed: 10000
+  tensorboard: true

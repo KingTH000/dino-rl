@@ -1,0 +1,146 @@
+{
+  "note": "Handwritten timing policy for environment playability only; not RL",
+  "config": {
+    "seed": 42,
+    "device": "auto",
+    "simulator": {
+      "fps": 60,
+      "initial_speed": 300.0,
+      "max_speed": 600.0,
+      "acceleration": 3.0,
+      "gravity": 1800.0,
+      "jump_velocity": 650.0,
+      "min_gap": 360.0,
+      "max_gap": 600.0,
+      "bird_probability": 0.25,
+      "max_episode_steps": 6000
+    },
+    "rewards": {
+      "survive": 0.1,
+      "pass_obstacle": 1.0,
+      "crash": -10.0
+    }
+  },
+  "episodes": [
+    {
+      "seed": 0,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 84,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 1,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 87,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 2,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 87,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 3,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 85,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 4,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 84,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 5,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 87,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 6,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 85,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 7,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 86,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 8,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 87,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    },
+    {
+      "seed": 9,
+      "terminated": false,
+      "truncated": true,
+      "score": 4500.250000000193,
+      "distance": 45002.50000000193,
+      "speed": 599.9999999999682,
+      "obstacles_cleared": 85,
+      "episode_steps": 6000,
+      "survival_time": 100.0,
+      "crashed": false
+    }
+  ]
+}

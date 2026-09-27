@@ -1,0 +1,6 @@
+{
+  "checkpoint_sha256": "25f04d03a63aa65cf882f69f678e7bace77f3ce00931341703a1ec3c47612e0f",
+  "matched_agent_episodes": 30,
+  "matched_random_episodes": 30,
+  "all_episode_records_identical": true
+}

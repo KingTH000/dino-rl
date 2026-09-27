@@ -1,0 +1,26 @@
+{
+  "episodes/reward": {
+    "points": 1271,
+    "latest_step": 199889
+  },
+  "updates/loss": {
+    "points": 244,
+    "latest_step": 199392
+  },
+  "updates/mean_q": {
+    "points": 244,
+    "latest_step": 199392
+  },
+  "updates/epsilon": {
+    "points": 244,
+    "latest_step": 199392
+  },
+  "updates/replay_size": {
+    "points": 244,
+    "latest_step": 199392
+  },
+  "evaluations/mean_score": {
+    "points": 9,
+    "latest_step": 200000
+  }
+}

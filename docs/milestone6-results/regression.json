@@ -1,0 +1,16 @@
+[
+  {
+    "observation": "state",
+    "checkpoint_sha256": "25f04d03a63aa65cf882f69f678e7bace77f3ce00931341703a1ec3c47612e0f",
+    "matched_agent_episodes": 30,
+    "matched_random_episodes": 30,
+    "all_records_identical": true
+  },
+  {
+    "observation": "image",
+    "checkpoint_sha256": "68d107f711e74e0ac19b7b74ff69fefab1f51bc047a19c6fcd957693623ff6bd",
+    "matched_agent_episodes": 30,
+    "matched_random_episodes": 30,
+    "all_records_identical": true
+  }
+]
